@@ -1,0 +1,3 @@
+steps:
+- name: gcr.io/community-builders/bq
+  args: ['load', 'data-cloud-363308.dev_haydn.haydn_test_data2', 'gs://gwilearningresources/responses/SV_6fJiFigkJ0Owkaq.R_1gOYIkJM2VBk3gq.json']
